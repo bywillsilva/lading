@@ -1,0 +1,30 @@
+.capabilities {
+    padding: 50px 0;
+}
+
+.capabilities .left {
+    align-items: center;
+}
+
+.capabilities .left p {
+    font-size: 2.5rem;
+}
+
+.capabilities h2 {
+    margin-bottom: 30px;
+}
+
+.capability {
+    min-width: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.capability p {
+    font-size: 1rem;
+}
+
+.capability p:nth-child(2) {
+    font-size: 1.5rem;
+}

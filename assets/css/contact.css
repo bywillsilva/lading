@@ -1,0 +1,49 @@
+.contact {
+    margin: 50px 0;
+}
+
+.contact .left {
+    align-items: center;
+}
+
+.contact .left p {
+    width: 80px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    width: 500px;
+}
+
+.contact input {
+    width: 100%;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 15px 5px;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.contact button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    align-self: flex-end;
+    margin: 20px 80px;
+    cursor: pointer;
+}
+
+.contact button img {
+    align-items: center;
+    width: 20px;
+    margin-left: 20px;
+}

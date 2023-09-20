@@ -1,0 +1,26 @@
+footer {
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #12181b;
+}
+
+footer ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer .social ul {
+    align-items: flex-end;
+}
+
+footer .social ul li{ 
+    font-size: .8rem;
+}
+
+footer .social ul li a{
+    color: gray;
+}

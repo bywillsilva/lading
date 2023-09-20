@@ -1,0 +1,32 @@
+.studies {
+    padding: 50px 0;
+}
+
+.studies .left {
+    padding: 9px 0;
+    align-items: center;
+}
+
+.studies .cards {
+    padding: 30px 0;
+    width: 1000px;
+    overflow: auto;
+}
+
+.cards > div {
+    min-width: 500px;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.cards .info {
+    padding: 10px 0;
+}
+
+.cards .info p {
+    margin: 2px 0;
+}
+
+.studies img {
+    width: 100%;
+}
