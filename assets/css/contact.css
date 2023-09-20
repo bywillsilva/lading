@@ -15,7 +15,8 @@
 }
 
 .contact form {
-    width: 500px;
+    min-width: 500px;
+    width: 100%;
 }
 
 .contact input {
@@ -40,6 +41,11 @@
     align-self: flex-end;
     margin: 20px 80px;
     cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+.contact button:hover {
+    transform: translate(10px, 0);
 }
 
 .contact button img {

@@ -16,15 +16,43 @@
 
 .capability {
     min-width: 500px;
+    padding: 5px 0;
     width: 100%;
-    align-items: center;
+    height: 18px;
+    align-items: flex-start;
     justify-content: space-between;
+    overflow: hidden;
+    transition: ease-in-out .5s;
+}
+
+.open {
+    height: 45px;
 }
 
 .capability p {
     font-size: 1rem;
+    line-height: 20px;
 }
 
-.capability p:nth-child(2) {
+.capability .sub {
+    margin-top: 5px;
+    font-size: .8rem;
+    color: gray;
+}
+
+.capability > p {
     font-size: 1.5rem;
+}
+
+.see {
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+.see:hover {
+    transform: rotate(45deg);
+}
+
+.click {
+    transform: rotate(45deg);
 }
